@@ -1,4 +1,5 @@
-# Horoscopes — steps to build this project
+# Horoscopes
+Below are the steps on how to build this Horoscopes app. 
 
 ## Setup
 
@@ -6,17 +7,17 @@
 1. Copy the assets folder, the README.md file and the .gitignore file from this github repo into your new blank project
 1. Remove all the extra code rendered from the Vite template. That includes removing all the JSX from the App component's return statement, the import statements in the App component, the CSS code in the App.css and index.css files
 
-## Coding the About Today section
+## Starting to code the About Today section
 
 1. Let's set up the initial JSX in our App component. Make an <h1> titled "Horoscopes" and a <section> with an <h2> titled "About Today". Give the <section> a class of "today-info".
 1. Add a <p> tag that displays today's date
 1. Format the date so it reads nicely as text, i.e. "Today is Friday, May 3, 2024"
+1. Import the astrology sign data from the data.js file. Let's name it horoscopeData in our import statement. 
+1. Implement findSign() function
+1. Create another <p> tag to display the current Zodiac sign in JSX
 
-## Coding the Sign buttons
+## Coding the Zodiac Sign buttons
 
-1. Get the astrology sign data
-1. Implement findZodiacSign() function
-1. Display current Zodiac sign in JSX
 1. Map over all the signs and display their signNames as buttons in the JSX.
 1. Turn the sign buttons into a separate SignButton component. Pass the signName as a prop.
 1. Style the buttons so that they look like the first picture
