@@ -1,13 +1,19 @@
-# React + Vite
+# Horoscopes — steps to build this project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup
 
-Currently, two official plugins are available:
+1. Create a blank new React project with Vite
+1. Copy the assets folder, the README.md file and the .gitignore file from this github repo into your new blank project
+1. Remove all the extra code rendered from the Vite template. That includes removing all the JSX from the App component's return statement, the import statements in the App component, the CSS code in the App.css and index.css files
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Coding the About Today section
 
-1. Find today's date and display it in JSX
+1. Let's set up the initial JSX in our App component. Make an <h1> titled "Horoscopes" and a <section> with an <h2> titled "About Today". Give the <section> a class of "today-info".
+1. Add a <p> tag that displays today's date
+1. Format the date so it reads nicely as text, i.e. "Today is Friday, May 3, 2024"
+
+## Coding the Sign buttons
+
 1. Get the astrology sign data
 1. Implement findZodiacSign() function
 1. Display current Zodiac sign in JSX
