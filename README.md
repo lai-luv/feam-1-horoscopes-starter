@@ -9,11 +9,12 @@ Below are the steps on how to build this Horoscopes app.
 
 ## Starting to code the About Today section
 
-1. Let's set up the initial JSX in our App component. Make an <h1> titled "Horoscopes" and a <section> with an <h2> titled "About Today". Give the <section> a class of "today-info".
-1. Add a <p> tag that displays today's date
+1. Let's set up the initial JSX in our App component. Make an h1 titled "Horoscopes" and a section with an h2 titled "About Today". Give the section a class of "today-info".
+1. Add a p tag that displays today's date
 1. Format the date so it reads nicely as text, i.e. "Today is Friday, May 3, 2024"
-1. Import the astrology sign data from the data.js file. Let's name it horoscopeData in our import statement. 
-1. Implement findSign() function
+1. Import the astrology sign data from the data.js file. Let's name it horoscopeData in our import statement.
+2. Create a variable called astroSigns in your app component that holds the astroSigns object from the imported astrology signs data 
+1. Write a findSign() function that takes in a date as input. It should return the corresponding zodiac sign by checking which zodiac sign's date range aligns with the inputted date. 
 1. Create another <p> tag to display the current Zodiac sign in JSX
 
 ## Coding the Zodiac Sign buttons
