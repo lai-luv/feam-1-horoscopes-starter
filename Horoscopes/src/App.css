@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "pacifico-regular";
+  src: url("./assets/Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Horoscopes/src/assets/Dancing_Script/DancingScript-VariableFont_wght;
+  src: url("./assets/Dancing_Script/DancingScript-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+body {
+  background-color: #132569;
+  color: #f0c7eb;
+  font-family: "baskerville";
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 600;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 755px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+section {
+  border: 2px solid #c09fbe;
+  border-radius: 16px;
+  background-color: #109eea;
+  padding: 10px 60px 30px;
+  margin: 24px;
+}
+
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-size: 32px;
+  font-style: italic;
+  text-decoration: underline 1px;
+  text-underline-offset: 4px;
+}
+
+button {
+  border-radius: 8px;
+  border: 5px ridge rgb(31, 131, 213);
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: -moz-grabbing;
+  background-color: #f5bcf1;
+  transition: all 0.55s;
+  margin: 14px;
+}
+button:hover {
+  background-color: rgb(102, 237, 237);
+  border: 5px ridge #f5bcf1;
+}
+
+button.sign-button {
+  width: 180px;
+  height: 90px;
+  margin: 7px;
+  border-radius: 16px;
+}
+
+img {
+  filter: invert(85%);
+  -webkit-filter: invert(85%);
+  width: 100px;
+}
+div.sign-info h2 {
+  font-family: pacifico-regular;
+  font-size: 64px;
+  margin: 20px;
+}
+input {
+  width: 150px;
+  height: 30px;
+  display: block;
+  margin: 20px auto;
+  font-family: "pacifico-regular";
+  font-size: 22px;
+}
+.sign-buttons button:nth-child(12n + 1):hover {
+  background-color: #ef50d4;
+}
+.sign-buttons button:nth-child(12n + 2):hover {
+  background-color: #d7ef50;
+}
+.sign-buttons button:nth-child(12n + 3):hover {
+  background-color: #2727d6;
+}
+.sign-buttons button:nth-child(12n + 4):hover {
+  background-color: #bf50ef;
+}
+.sign-buttons button:nth-child(12n + 5):hover{
+  background-color: #ef50d4;
+}
+.sign-buttons button:nth-child(12n + 6):hover{
+  background-color: #566290;
+}
+.sign-buttons button:nth-child(12n + 7):hover {
+  background-color: #085d12;
+}
+.sign-buttons button:nth-child(12n + 8) :hover{
+  background-color: #64f8bf;
+}
+.sign-buttons button:nth-child(12n + 9) :hover{
+  background-color: #dce0e7;
+}
+.sign-buttons button:nth-child(12n + 10) :hover{
+  background-color: #ef50a7;
+}
+.sign-buttons button:nth-child(12n + 11) :hover{
+  background-color: #08c02d87;
+}
+.sign-buttons button:nth-child(12n + 12) :hover{
+  background-color: #6850ef;
+}
